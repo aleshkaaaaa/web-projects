@@ -7,6 +7,7 @@ const dateCalcResult = document.getElementById("datecalc__result");
 dateCalcForm.addEventListener("submit", handleCalcDates);
 
 function handleCalcDates(event) {
+    
     dateCalcResult.innerHTML = "";
     event.preventDefault();
 
