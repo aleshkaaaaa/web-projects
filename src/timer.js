@@ -20,9 +20,7 @@ function Counting() {
         count = !count;
         button.innerHTML = 'СТОП';
     } else {
-        count = !count;
-        timeH.innerHTML = '00:00:00';
-        button.innerHTML = 'СТОП';
+        location.reload()
     }
 }
 
