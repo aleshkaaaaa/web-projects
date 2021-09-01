@@ -8,7 +8,7 @@ dateCalcForm.addEventListener("submit", handleCalcDates);
 
 function handleCalcDates(event) {
 
-    dateCalcResult.innerHTML = "";
+    dateCalcResult.innerHTML = ""; 
     event.preventDefault();
 
     let { firstDate, secondDate } = event.target.elements;
@@ -20,3 +20,9 @@ function handleCalcDates(event) {
     }
     else dateCalcResult.innerHTML = formatError("Для расчета промежутка необходимо заполнить оба поля");
 }
+
+
+
+
+
+const timerForm = document.getElementById("timer");
